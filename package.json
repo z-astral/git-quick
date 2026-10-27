@@ -1,0 +1,19 @@
+{
+  "name": "git-quick",
+  "version": "1.0.0",
+  "description": "Git workflow shortcuts - add, commit, push in one command",
+  "main": "bin/git-quick.js",
+  "bin": {
+    "git-quick": "bin/git-quick.js"
+  },
+  "scripts": {
+    "start": "node bin/git-quick.js",
+    "test": "node test/git-quick.test.js"
+  },
+  "keywords": ["git", "cli", "workflow", "commit", "push"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "commonjs"
+}
